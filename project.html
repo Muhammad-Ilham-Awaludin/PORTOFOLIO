@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portofolio</title>
+  <link rel="website icon" type="png" href="assets/image/logo.png">
+  <style>
+            *{
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            height: 70px;
+            position: fixed;
+            width: 97%;
+        }
+        ul {
+            display: flex;
+            gap: 2rem;
+            float: right;
+            list-style: none;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+            font-size: 18px;
+            border-radius: 7px;
+            border: 2px solid white;
+            padding: 8px 8px 8px 8px;
+            transition: background-color 0.5s;
+        }
+        li a:hover {
+            background-color: rgb(231, 233, 235);
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        span {
+            color: #007bff;
+        }
+        /* .section2 {
+          height: 90vh;
+          width: auto;
+          justify-content: space-around;
+        }
+        .project {
+          display: flex;
+          justify-content: space-around;
+        }
+        .kolom {
+          background-color: rgb(231, 233, 235);
+          align-items: center;
+          justify-content: space-around;
+          margin-top: 10rem;
+        } */
+        .skill {
+          text-align: center;
+          height: 85vh;
+          padding-top: 10px;
+          /* background-color: rgb(231, 233, 235); */
+          padding-top: 7rem;
+        }
+        .skill h1 {
+          padding-bottom: 30px;
+        }
+        /* .language {
+          text-align: left;
+          padding-bottom: 20px;
+          color:gray;
+        } */
+        .skill-2 {
+          display: flex;
+          justify-content: space-around;
+        }
+        .box {
+          border-radius: 10px;
+          background-color: rgb(231, 233, 235);
+          width: 400px;
+          height: 250px;
+          text-align: center;
+        }
+        .box h3 {
+          margin-top: 10px;
+        }
+        .box img {
+          margin-top: 10px;
+          height: 150px;
+          width: 250px;
+          border-radius: 10px;
+          transition: transform 0.3s ease-in-out;
+        }
+        .box img:hover {
+          transform: scale(1.1);
+        }
+
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo"><a href="index.html">Muhammad<span>Ilham</span></a></div>
+    <ul>
+        <li><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+            </svg> Home</a></li>
+        <li><a href="about.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+            </svg> About Me</a></li>
+        <li><a href="project.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+            </svg> Project</a></li>
+        <li><a href="contact.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-rolodex" viewBox="0 0 16 16">
+            <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+            <path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1z"/>
+            </svg> Contact</a></li>
+    </ul>
+</nav>
+
+<div class="skill">
+  <h1>My Project</h1>
+
+  <div class="skill-2">
+    <div class="box">
+      <img src="#" alt="Portofolio">
+      <h3>Portofolio</h3>
+    </div>
+    <div class="box">
+      <a href="http://www.ilham.byethost14.com/project/?i=2">
+      <img src="assets/image/kel5.png" alt="Kelipatan 5">
+      </a>
+      <h3>Kelipatan 5</h3>
+    </div>
+    <div class="box">
+      <img src="#" alt="Bahan Bakar">
+      <h3>Bahan Bakar</h3>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
